@@ -1,0 +1,1 @@
+{"enabled":true,"name":"Thai caption check","description":"When caption code changes, render a sample Thai subtitle and check line breaks.","when":{"type":"fileEdited","patterns":["src/captions/**/*.py"]},"then":{"type":"askAgent","prompt":"Run the caption sample test and confirm Thai text is not broken mid-word."}}
